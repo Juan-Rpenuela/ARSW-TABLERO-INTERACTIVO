@@ -63,15 +63,16 @@ tablero/
 1. **Clona el repositorio:**
    ```bash
    git clone <url-del-repositorio>
-   cd tablero
+   cd ARSW-TABLERO-INTERACTIVO
+
    ```
 2. **Compila el proyecto:**
    ```bash
-   ./mvnw clean package
+   mvn clean package
    ```
 3. **Ejecuta la aplicación:**
    ```bash
-   ./mvnw spring-boot:run
+   mvn spring-boot:run
    ```
 4. **Abre la aplicación en el navegador:**
    - [http://localhost:8080/drawio.html](http://localhost:8080/drawio.html)
